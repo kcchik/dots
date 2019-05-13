@@ -46,7 +46,6 @@ iTerm2 → Preferences → Text → Change Font
 ```json
 {
   "editor.fontFamily": "Meslo LG M for Powerline, Menlo, monospace",
-  "editor.acceptSuggestionOnEnter": "off",
   "editor.tabSize": 2,
   "editor.glyphMargin": false,
   "editor.folding": false,
