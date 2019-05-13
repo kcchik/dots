@@ -66,6 +66,7 @@ iTerm2 → Preferences → Text → Change Font
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "explorer.confirmDelete": false,
-  "zenMode.centerLayout": false
+  "zenMode.centerLayout": false,
+  "open-in-browser.default": "chrome"
 }
 ```
