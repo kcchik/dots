@@ -38,6 +38,7 @@ iTerm2 → Preferences → Text → Change Font
 
 - Bluloco Dark
 - Code Runner
+- Open in Browser
 - Beautify
 - ESLint
 - Ruby
