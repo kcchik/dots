@@ -26,6 +26,12 @@ iTerm2 → Preferences → Colors → Color Presets → Import
 
 iTerm2 → Preferences → Text → Change Font
 
+# Windows Terminal
+
+### ConEmu
+
+[Download](https://conemu.github.io)
+
 # VSCode
 
 ### Extensions
