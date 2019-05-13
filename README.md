@@ -1,6 +1,4 @@
-# Setup
-
-## Mac Terminal
+# Mac Terminal
 
 ### iTerm2
 
@@ -28,7 +26,7 @@ iTerm2 → Preferences → Colors → Color Presets → Import
 
 iTerm2 → Preferences → Text → Change Font
 
-## VSCode
+# VSCode
 
 ### Extensions
 
