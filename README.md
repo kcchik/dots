@@ -32,6 +32,10 @@ iTerm2 → Preferences → Text → Change Font
 
 [Download](https://conemu.github.io)
 
+### Theme
+
+Zenburn
+
 # VSCode
 
 ### Extensions
