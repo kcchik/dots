@@ -34,7 +34,7 @@ iTerm2 → Preferences → Text → Change Font
 
 ### Theme
 
-Zenburn
+Babun
 
 # VSCode
 
