@@ -3,6 +3,7 @@
 ### Extensions
 
 - Bluloco Dark
+- Color Highlight
 - Beautify
 - ESLint
 - Sass
