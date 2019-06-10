@@ -1,4 +1,22 @@
-# Mac Terminal
+# VSCode
+
+### Extensions
+
+- Bluloco Dark
+- Code Runner
+- Open in Browser
+- Beautify
+- ESLint
+- Ruby
+- Python
+
+### Font
+
+[Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) (Click 'View raw' to download) 
+
+### [settings.json](https://github.com/kcchik/setup/blob/master/settings.json)
+
+# Mac
 
 ### iTerm2
 
@@ -26,7 +44,9 @@ iTerm2 → Preferences → Colors → Color Presets → Import
 
 iTerm2 → Preferences → Text → Change Font
 
-# Windows Terminal
+### [.zshrc](https://github.com/kcchik/setup/blob/master/.zshrc)
+
+# Windows
 
 ### ConEmu
 
@@ -35,21 +55,3 @@ iTerm2 → Preferences → Text → Change Font
 ### Theme
 
 Babun
-
-# VSCode
-
-### Extensions
-
-- Bluloco Dark
-- Code Runner
-- Open in Browser
-- Beautify
-- ESLint
-- Ruby
-- Python
-
-### Font
-
-[Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) (Click 'View raw' to download) 
-
-### [settings.json](https://github.com/kcchik/setup/blob/master/settings.json)
