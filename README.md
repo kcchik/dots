@@ -6,7 +6,7 @@
 brew cask install iterm2
 ```
 
-### Zsh
+### Zsh and Oh My Zsh
 
 ```
 brew install zsh
