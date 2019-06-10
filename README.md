@@ -3,10 +3,9 @@
 ### Extensions
 
 - Bluloco Dark
-- Code Runner
-- Open in Browser
 - Beautify
 - ESLint
+- Sass
 - Ruby
 - Python
 
