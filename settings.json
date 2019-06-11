@@ -18,5 +18,5 @@
     "explorer.confirmDragAndDrop": false,
     "zenMode.centerLayout": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "open-in-browser.default": "chrome"
+    "color-highlight.markerType": "underline"
 }
