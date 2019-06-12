@@ -18,5 +18,6 @@
     "explorer.confirmDragAndDrop": false,
     "zenMode.centerLayout": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "color-highlight.markerType": "underline"
+    "color-highlight.markerType": "underline",
+    "breadcrumbs.enabled": false
 }
