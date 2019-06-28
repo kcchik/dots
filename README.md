@@ -36,13 +36,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 [Bluloco Dark](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/BlulocoDark.itermcolors)
 
-iTerm2 → Preferences → Colors → Color Presets → Import
-
 ### Font
 
 [Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) (Click 'View raw' to download)
-
-iTerm2 → Preferences → Text → Change Font
 
 ### [.zshrc](https://github.com/kcchik/setup/blob/master/.zshrc)
 
