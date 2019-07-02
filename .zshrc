@@ -9,4 +9,3 @@ source $ZSH/oh-my-zsh.sh
 alias rm="rm -rf"
 alias cp="cp -R"
 alias ls="ls -AG"
-alias mkdir="mkdir -p"
