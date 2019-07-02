@@ -16,9 +16,7 @@
 
 ### [settings.json](https://github.com/kcchik/setup/blob/master/settings.json)
 
-# Mac
-
-### iTerm2
+# iTerm2
 
 ```
 brew cask install iterm2
