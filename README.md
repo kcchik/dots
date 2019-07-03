@@ -3,8 +3,8 @@
 ### Extensions
 
 - Bluloco Dark
-- ESLint
 - Python
+- ESLint
 - Sass
 
 ### Font
