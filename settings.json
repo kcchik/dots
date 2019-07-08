@@ -18,8 +18,8 @@
     "workbench.colorTheme": "Bluloco Dark",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.startupEditor": "none",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
     "zenMode.centerLayout": false
 }
