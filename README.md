@@ -37,4 +37,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 [.zshrc](https://github.com/kcchik/setup/blob/master/.zshrc)
 
-[kevin.zsh-theme](https://github.com/kcchik/setup/blob/master/kevin.zsh-theme) (don't use this lmao, it's robbyrussell but worse)
+[kevin.zsh-theme](https://github.com/kcchik/setup/blob/master/kevin.zsh-theme) (robbyrussell, but worse)
