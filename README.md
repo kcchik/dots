@@ -7,13 +7,12 @@
 - Bluloco Dark
 - Python
 - ESLint
-- Sass
 
 ### Font
 
 [Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) (Click 'View raw' to download) 
 
-# iTerm2
+# iTerm
 
 ```
 brew cask install iterm2
