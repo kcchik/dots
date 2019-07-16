@@ -12,7 +12,7 @@ brew cask install visual-studio-code
 - Python
 - ESLint
 
-## iTerm
+## iTerm2
 ```sh
 brew cask install iterm2
 ```
