@@ -1,5 +1,4 @@
-## Editor
-VSCode
+## VSCode
 ```sh
 brew cask install visual-studio-code
 ```
@@ -13,8 +12,7 @@ brew cask install visual-studio-code
 - Python
 - ESLint
 
-## Terminal
-iTerm2
+## iTerm2
 ```sh
 brew cask install iterm2
 ```
@@ -23,9 +21,8 @@ brew cask install iterm2
 
 [Meslo LG M Regular for Powerline.ttf](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 
-## Shell
-Zsh
-```
+## Zsh
+```sh
 brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -34,3 +31,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 [.zshrc](https://github.com/kcchik/setup/blob/master/.zshrc)
 
 [kevin.zsh-theme](https://github.com/kcchik/setup/blob/master/kevin.zsh-theme)
+
+## Tmux
+```sh
+brew install tmux
+```
+[.tmux.conf](https://github.com/kcchik/setup/blob/master/.tmux.conf)
