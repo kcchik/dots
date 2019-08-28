@@ -1,24 +1,24 @@
 [Meslo LG M Regular for Powerline.ttf](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 
 # macOS setup
-## VSCode
+### VSCode
 ```sh
 brew cask install visual-studio-code
 ```
 [settings.json](https://github.com/kcchik/setup/blob/master/settings.json)
 
-### Extensions
+Extensions
 - Bluloco Dark
 - Python
 - ESLint
 
-## iTerm2
+### iTerm2
 ```sh
 brew cask install iterm2
 ```
 [BlulocoDark.itermcolors](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/BlulocoDark.itermcolors)
 
-## Zsh
+### Zsh
 ```sh
 brew install zsh
 
@@ -28,7 +28,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 [kevin.zsh-theme](https://github.com/kcchik/setup/blob/master/kevin.zsh-theme)
 
-## Tmux
+### Tmux
 ```sh
 brew install tmux
 ```
