@@ -1,7 +1,7 @@
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": false,
-    "editor.fontFamily": "Meslo LG M for Powerline, Menlo, monospace",
+    "editor.fontFamily": "Meslo LG M for Powerline, Menlo, Courier",
     "editor.glyphMargin": false,
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
@@ -10,16 +10,14 @@
     "eslint.run": "onSave",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Bluloco Dark",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "none",
-    "zenMode.centerLayout": false
+    "workbench.tree.renderIndentGuides": "none"
 }
