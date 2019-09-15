@@ -1,6 +1,6 @@
 export ZSH="/Users/kevin/.oh-my-zsh"
 
-ZSH_THEME="kevin"
+ZSH_THEME="simple"
 
 plugins=(git)
 
