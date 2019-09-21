@@ -1,0 +1,51 @@
+[bar/bar]
+monitor = ${env:MONITOR:}
+height = 20
+background = #00000000
+foreground = #eeeeee
+font-0 = dejavu:pixelsize=12;4
+
+border-top-size = 10
+border-bottom-size = 0
+border-right-size = 10
+border-left-size = 10
+
+modules-right = wlan time
+module-margin = 1.7
+
+
+[module/time]
+type = internal/date
+interval = 5
+
+time = %I:%M
+time-alt = %B %d, %Y
+label = "%date% %time% "
+
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+poll-interval = 5
+
+full-at = 98
+
+label-discharging = %percentage%%
+label-charging = %percentage%%
+label-full = %percentage%%
+
+format-discharging =  <label-discharging>
+format-full =  <label-full>
+format-charging =  <label-charging>
+
+
+[module/wlan]
+type = internal/network
+
+interface = wlp2s0
+
+interval = 5
+
+label-connected =  %essid%
+label-disconnected =  Not Connected
+
