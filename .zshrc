@@ -10,4 +10,3 @@ alias open="xdg-open"
 
 alias rm="rm -rf"
 alias cp="cp -R"
-

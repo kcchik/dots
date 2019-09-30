@@ -10,4 +10,3 @@ if type "xrandr"; then
 else
   polybar --reload bar &
 fi
-

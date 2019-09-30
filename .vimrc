@@ -1,3 +1,8 @@
+call plug#begin('~/.vim/plugged')
+
+
+call plug#end()
+
 syntax on
 
 set expandtab
@@ -26,4 +31,3 @@ nnoremap B ^
 nnoremap E $
 
 inoremap jk <esc>
-
