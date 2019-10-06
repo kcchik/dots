@@ -1,0 +1,30 @@
+* {
+  font-family: "undefined";
+}
+
+.tab-line {
+  display: none;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+  display: -moz-box !important;
+}
+
+#tracking-protection-icon-box {
+  visibility: collapse !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedDomain > #connection-icon,
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity > #connection-icon,
+#urlbar[pageproxystate="valid"] > #identity-box.mixedActiveBlocked > #connection-icon {
+  display: none !important;
+}
+
+#urlbar #identity-icon {
+	opacity: 0 !important;
+	-moz-margin-end: -1.1em !important;
+}

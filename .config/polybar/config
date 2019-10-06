@@ -3,7 +3,6 @@ monitor = ${env:MONITOR:}
 background = #00000000
 foreground = #333
 font-0 = undefined
-font-1 = siji:size=14
 border-top-size = 10
 border-bottom-size = 0
 border-right-size = 15

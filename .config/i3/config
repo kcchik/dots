@@ -5,7 +5,7 @@ for_window [class=".*"] border pixel 0
 gaps inner 35
 
 exec --no-startup-id ~/.config/polybar/launch.sh &amp
-exec --no-startup-id compton -b
+exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id xrandr --output HDMI-2 --primary --left-of eDP-1
 exec --no-startup-id sh ~/.fehbg
 
