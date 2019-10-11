@@ -1,4 +1,5 @@
 export ZSH="/home/kcchik/.oh-my-zsh"
+export PATH="$PATH:`yarn global bin`"
 
 ZSH_THEME="simple"
 

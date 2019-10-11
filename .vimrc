@@ -1,16 +1,17 @@
 call plug#begin('~/.vim/plugged')
-
-
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 syntax on
 
 set expandtab
 set tabstop=2
-set softtabstop=2
+set shiftwidth=2
+
+set autoindent
+set smartindent
 
 set number
-set cursorline
 set showmatch
 
 set incsearch
@@ -31,3 +32,7 @@ nnoremap B ^
 nnoremap E $
 
 inoremap jk <esc>
+
+colorscheme nord
+highlight LineNr ctermfg=lightgray
+highlight EndOfBuffer ctermfg=lightgray
