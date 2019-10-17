@@ -31,8 +31,6 @@ vnoremap <S-up> :m '<-2<CR>gv=gv
 nnoremap B ^
 nnoremap E $
 
-inoremap jk <esc>
-
 colorscheme nord
 highlight LineNr ctermfg=lightgray
 highlight EndOfBuffer ctermfg=lightgray
