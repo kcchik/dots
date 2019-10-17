@@ -3,6 +3,7 @@ set $mod Mod1
 for_window [class=".*"] border pixel 0
 
 gaps inner 35
+gaps top -25
 
 exec --no-startup-id ~/.config/polybar/launch.sh &amp
 exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
@@ -11,20 +12,24 @@ exec --no-startup-id sh ~/.fehbg
 
 floating_modifier $mod
 
-bindsym $mod+e exec --no-startup-id flash_window
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -i'
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
 bindsym $mod+Up focus up
+bindsym $mod+Down focus down
+bindsym $mod+Left focus left
 bindsym $mod+Right focus right
 
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Right move right
+
+bindsym $mod+Ctrl+Up resize shrink height 10 px or 10 ppt
+bindsym $mod+Ctrl+Down resize grow height 10 px or 10 ppt
+bindsym $mod+Ctrl+Left resize shrink width 10 px or 10 ppt
+bindsym $mod+Ctrl+Right resize grow width 10 px or 10 ppt
 
 bindsym $mod+f fullscreen toggle
 
@@ -33,14 +38,3 @@ bindsym $mod+space focus mode_toggle
 
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
-
-mode "resize" {
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        bindsym $mod+r mode "default"
-}
-
-bindsym $mod+r mode "resize"

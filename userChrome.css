@@ -77,3 +77,39 @@
   box-shadow: none !important;
 }
 
+#nav-bar {
+  height: 0px;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#nav-bar:focus-within {
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+
+
+tab:only-of-type {
+  display:none;
+}
+
+#tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox, #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
+    min-height: initial !important;
+}
+
+tab {
+    line-height: 32px; height: 32px;
+}
+
+.tabs-newtab-button {
+    display: none;
+}
+
+#tabbrowser-tabs:hover .tabs-newtab-button {
+    display: block;
+}
+
+#main-window :-moz-any(#back-button, #forward-button) {
+  display: none;
+}
