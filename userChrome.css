@@ -79,20 +79,28 @@
   overflow: visible;
 }
 
+#tabbrowser-tabs, #tabbrowser-tabs arrowscrollbox {
+  min-height: 0 !important;
+}
+
+#tabbrowser-tabs tab {
+  height: var(--tab-min-height);
+}
+
+#tabbrowser-tabs tab:first-child:last-child {
+  display: none !important;
+}
+
 tab:only-of-type {
   display:none;
 }
 
 #tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox, #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
-    min-height: initial !important;
+  min-height: initial !important;
 }
 
 tab {
   line-height: 32px; height: 32px;
-}
-
-.tabs-newtab-button {
-  display: none;
 }
 
 #main-window :-moz-any(#back-button, #forward-button) {
