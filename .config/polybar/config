@@ -1,14 +1,20 @@
 [bar/bar]
 monitor = ${env:MONITOR:}
-background = #00000000
-foreground = #333
-font-0 = undefined
+background = #000
+foreground = #fff
+font-0 = Noto Sans Mono:pixelsize=10
 border-top-size = 10
-border-right-size = 35
-border-left-size = 35
-modules-left = i3
-modules-right = pulseaudio wlan date time
+border-bottom-size = -5
+border-right-size = 20
+border-left-size = 20
+modules-left = bspwm
+modules-center = xwindow
+modules-right = pulseaudio battery wlan date time
 module-margin = 1
+cursor-click = pointer
+
+[module/bspwm]
+type = internal/bspwm
 
 [module/i3]
 type = internal/i3
@@ -24,10 +30,15 @@ label-visible-foreground = #44000000
 label-separator = |
 label-separator-foreground = #00000000
 
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:75:...%
+
 [module/date]
 type = internal/date
 interval = 5
 date = %m.%d.%y
+time = %I:%M
 label = %date%
 
 [module/time]
@@ -40,12 +51,8 @@ label = %time%
 type = internal/battery
 battery = BAT0
 poll-interval = 5
-label-discharging = %percentage%%
-label-charging = %percentage%%
-label-full = %percentage%%
-format-discharging = bat <label-discharging>
-format-full = bat <label-full>
-format-charging = bat <label-charging>
+format-charging = Bat <label-charging>
+format-discharging = Bat <label-discharging>
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -57,7 +64,7 @@ bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-fill = ​–
 bar-volume-empty = ​–
-bar-volume-empty-foreground = #44000000
+bar-volume-empty-foreground = #666
 
 [module/wlan]
 type = internal/network
@@ -65,3 +72,6 @@ interface = wlp2s0
 interval = 5
 label-connected = %essid%
 label-disconnected = No Connection
+
+; vim:ft=dosini
+

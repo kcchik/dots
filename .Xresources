@@ -1,0 +1,47 @@
+URxvt.scrollBar: False
+URxvt.font: xft:Noto Sans Mono:pixelsize=12
+URxvt.internalBorder: 40
+
+*.background:  #222
+*.foreground:  #fff
+*.accent:      #fff
+*.cursorColor: #03a9f4
+
+! black
+URxvt.color0:  #2e3436
+URxvt.color8:  #555753
+! red
+URxvt.color1:  #dv143c
+URxvt.color9:  #dc143c
+! green
+URxvt.color2:  #4e9a06
+URxvt.color10: #8ae234
+! yellow
+URxvt.color3:  #c4a000
+URxvt.color11: #fce94f
+! blue
+URxvt.color4:  #03a9f4
+URxvt.color12: #03a9f4
+! magenta
+URxvt.color5:  #75507b
+URxvt.color13: #ad7fa8
+! cyan
+URxvt.color6:  #03a9f4
+URxvt.color14: #03a9f4
+! white
+URxvt.color7:  #d3d7Ccf
+URxvt.color15: #eeeeec
+
+!  ROFI
+!rofi.show-icons:        true
+!rofi.modi:              drun,run,window,ssh
+!rofi.lines:             5
+!rofi.line-padding:      7
+!rofi.matching:          fuzzy
+!rofi.bw:                0
+!rofi.padding:           0
+!rofi.separator-style:   none
+!rofi.hide-scrollbar:    true
+!rofi.line-margin:       0
+!rofi.font:              Hack 14
+!rofi.theme:             ~/.config/rofi/config.rasi

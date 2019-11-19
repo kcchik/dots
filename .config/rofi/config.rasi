@@ -1,20 +1,20 @@
 configuration {
-  lines: 3;
+  lines: 7;
   line-padding: 10;
   hide-scrollbar: true;
-  font: "undefined 16";
+  font: "Noto Sans Mono 12";
   fullscreen: true;
 } 
 
 * {
   highlight: none;
-  background-color: #00000000;
+  background-color: #000;
   text-color: #aaa;
   spacing: 15;
 }
 
 #window {
-  background-color: #000000aa;
+  background-color: #000;
   padding: 450px 600px;
 }
 
@@ -49,3 +49,4 @@ configuration {
 #inputbar {
   children: [prompt, textbox-prompt-colon, entry];
 }
+
