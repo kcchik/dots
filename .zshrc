@@ -17,5 +17,5 @@ alias cp="cp -R"
 # yellow  ffc83f
 # blue    288ad6
 # magenta d34590
-# cyan    28ddde
+# cyan    10cecf
 # white   fa5e5b
