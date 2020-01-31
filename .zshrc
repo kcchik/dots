@@ -1,5 +1,4 @@
 export ZSH="/home/kcchik/.oh-my-zsh"
-export PATH="$PATH:`yarn global bin`"
 
 ZSH_THEME="simple"
 
@@ -8,7 +7,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 alias open="xdg-open"
-
 alias rm="rm -rf"
 alias cp="cp -R"
 
@@ -16,6 +14,6 @@ alias cp="cp -R"
 # green   16c98d
 # yellow  ffc83f
 # blue    288ad6
-# magenta d34590
-# cyan    10cecf
-# white   fa5e5b
+# magenta fc9fdf
+# cyan    82e4fa
+# white   e7e7e7
