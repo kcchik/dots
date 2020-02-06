@@ -31,11 +31,3 @@ URxvt.color14: #82e4fa
 ! white
 URxvt.color7:  #e7e7e7
 URxvt.color15: #eeeeee
-
-# red     fa5e5b
-# green   16c98d
-# yellow  ffc83f
-# blue    288ad6
-# magenta fc9fdf
-# cyan    82e4fa
-# white   e7e7e7
