@@ -3,9 +3,5 @@
 sxhkd &
 polybar bar &
 
-bspc HDMI-2 -d I II III IV V
-bspc eDP-1 -d VI VII VIII IX X
-
 bspc config window_gap 20
 bspc config border_width 0
-

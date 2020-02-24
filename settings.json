@@ -20,5 +20,5 @@
     "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.colorTheme": "Atom One Dark",
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "left"
 }

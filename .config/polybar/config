@@ -16,20 +16,6 @@ cursor-click = pointer
 [module/bspwm]
 type = internal/bspwm
 
-[module/i3]
-type = internal/i3
-pin-workspaces = true
-strip-wsnumbers = false
-index-sort = true
-enable-scroll = false
-wrapping-scroll = false
-reverse-scroll = false
-format = <label-state>
-label-unfocused-foreground = #44000000
-label-visible-foreground = #44000000
-label-separator = |
-label-separator-foreground = #00000000
-
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:75:...%
@@ -72,6 +58,3 @@ interface = wlp2s0
 interval = 5
 label-connected = %essid%
 label-disconnected = No Connection
-
-; vim:ft=dosini
-

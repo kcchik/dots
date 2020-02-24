@@ -2,9 +2,6 @@
 super + Return
 	urxvt
 
-super + Shift + Return
-  urxvt
-
 # program launcher
 super + @space
 	rofi -show run
@@ -94,4 +91,3 @@ super + alt + {h,j,k,l}
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-

@@ -4,7 +4,7 @@ configuration {
   hide-scrollbar: true;
   font: "Noto Sans Mono 12";
   fullscreen: true;
-} 
+}
 
 * {
   highlight: none;
@@ -49,4 +49,3 @@ configuration {
 #inputbar {
   children: [prompt, textbox-prompt-colon, entry];
 }
-
