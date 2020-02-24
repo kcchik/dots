@@ -10,6 +10,8 @@ parse_git_branch() {
 setopt prompt_subst
 PROMPT='%1~%F{blue}$(parse_git_branch)%f > '
 
+alias ..='cd ..'
+
 # red     fa5e5b
 # green   16c98d
 # yellow  ffc83f
