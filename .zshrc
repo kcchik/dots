@@ -5,6 +5,10 @@ zle -N edit-command-line
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
 
+autoload -Uz compinit && compinit -i
+setopt MENU_COMPLETE
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
