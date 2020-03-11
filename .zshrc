@@ -13,7 +13,7 @@ bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
 parse_git_branch() {
-	ref="$(command git symbolic-ref --short HEAD 2> /dev/null)" || return
+  ref="$(command git symbolic-ref --short HEAD 2> /dev/null)" || return
   echo " $ref"
 }
 setopt prompt_subst
