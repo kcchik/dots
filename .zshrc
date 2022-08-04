@@ -16,10 +16,11 @@ bindkey "^x^e" edit-command-line
 # prompt
 branch() {
   ref="$(command git symbolic-ref --short HEAD 2> /dev/null)" || return
-  echo "$ref"
+  echo " $ref"
 }
 setopt prompt_subst
-PROMPT="%B%1~%F{blue} $(branch)%f ➜ %b"
+PROMPT='%B%1~%F{blue}$(branch)%f ➜ %b'
 
 # alias
 alias ..="cd .."
+
