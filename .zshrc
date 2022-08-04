@@ -1,28 +1,25 @@
-export PATH=$PATH:$HOME/go/bin
-
-[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env"
-
-# Edit command line
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey '^xe' edit-command-line
-bindkey '^x^e' edit-command-line
-
-# Case insensitive autocomplete
+# autocomplete
 autoload -Uz compinit && compinit -i
 setopt MENU_COMPLETE
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+zstyle ":completion:*" matcher-list "m:{a-z}={A-Z}"
 
-# History
-bindkey '\e[A' history-beginning-search-backward
-bindkey '\e[B' history-beginning-search-forward
+# history
+bindkey "\e[A" history-beginning-search-backward
+bindkey "\e[B" history-beginning-search-forward
 
-# Prompt
-parse_git_branch() {
+# edit command
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey "^xe" edit-command-line
+bindkey "^x^e" edit-command-line
+
+# prompt
+branch() {
   ref="$(command git symbolic-ref --short HEAD 2> /dev/null)" || return
-  echo " $ref"
+  echo "$ref"
 }
 setopt prompt_subst
-PROMPT='%1~%F{blue}$(parse_git_branch)%f > '
+PROMPT="%B%1~%F{blue} $(branch)%f ➜ %b"
 
-alias ..='cd ..'
+# alias
+alias ..="cd .."
