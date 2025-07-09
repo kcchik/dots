@@ -18,9 +18,35 @@ branch() {
   ref="$(command git symbolic-ref --short HEAD 2> /dev/null)" || return
   echo " $ref"
 }
+kube() {
+  context=$(kubectl config current-context 2> /dev/null)
+  if [ $? -ne 1 ]; then
+    echo " $context"
+  fi
+}
 setopt prompt_subst
-PROMPT='%B%1~%F{blue}$(branch)%f ➜ %b'
+NEWLINE=$'\n'
+PROMPT='${NEWLINE}%B%d%F{green}$(branch)%F{blue}$(kube)%f${NEWLINE}➜ %b'
+
+# Repository root
+root() {
+  if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
+    cd $(git rev-parse --show-toplevel)
+  fi
+}
+
+# Set GOPATH for goenv
+godevenv() {
+  export GOENV_ROOT="$HOME/.goenv"
+  export PATH="$PATH:$GOENV_ROOT/bin"
+  export PATH="$PATH:$GOPATH/bin"
+  eval "$(goenv init -)"
+  go version
+}
 
 # alias
 alias ..="cd .."
-
+alias k="kubectl"
+alias tf="terraform"
+alias tg="terragrunt"
+alias assume="source assume"
